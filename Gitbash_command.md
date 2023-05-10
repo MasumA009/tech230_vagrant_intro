@@ -44,3 +44,7 @@ step 3. use git push origin main to send the change to Github.
 step 4. manually check the rep on github, verify it is there.
 
 note: we can use git status at anytime to see the current state of the file. 
+
+A general Cheat Sheet taken from the GitHub site is:
+![Alt text](Screenshot%202023-05-10%20172128.png)
+Another one is:
