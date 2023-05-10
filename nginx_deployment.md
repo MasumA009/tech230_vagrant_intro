@@ -1,6 +1,7 @@
 # VM tutorial
 step 1: run vagrant up to make a new vm 
-
+Results in:
+[label](nginx_deployment.md)
 step 2: use vagrant ssh in the terminal, allows us to use the vm via the terminal
 
 step 3: update using "sudo apt-get update"

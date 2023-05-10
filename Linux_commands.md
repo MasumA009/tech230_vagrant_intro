@@ -24,3 +24,12 @@
 10. sudo: Executes a command with administrative privileges.
 
 10.1. sudo nano: goes into a file, allowing it to be edited. 
+
+additional commands include:
+
+
+
+![Alt text](Screenshot%202023-05-10%20171650.png)
+
+file permissions:
+![Alt text](Screenshot%202023-05-10%20171755.png)
