@@ -1,8 +1,8 @@
 ### Gitbash commands 
 
-1. git init: Initialises a new Git repo
+1. <git init>: Initialises a new Git repo
 
-2. git commit: Records the changes to the repository with a message.
+2. <git commit>: Records the changes to the repository with a message.
 Example: git commit -m "commit example"
 
 3. git push: Uploads local commits to a repository, such as Github. 
