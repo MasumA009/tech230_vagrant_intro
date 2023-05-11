@@ -1,0 +1,8 @@
+VM tutorial
+step 1: run vagrant up to make a new vm 
+step 2: use vagrant ssh in the terminal, allows us to use the vm via the terminal
+step 3: update using "sudo apt-get update"
+step 4: upgrade "sudo apt-get upgrade"
+step 5: install nginx "sudo apt-get install nginx"
+step 6: start nginx  "sudo systemctl start nginx"
+step 7: (checking) type the ip into a web browser. (192.168.10.100)

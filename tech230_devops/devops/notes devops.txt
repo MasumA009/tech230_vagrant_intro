@@ -1,0 +1,25 @@
+CICD = Continous integrattion continous developmemt
+
+the cloud = allows an online method for comapnies to implement new features, brings scalability
+
+4 Pillars of DevOps: 
+1)Ease of use: tools need to be user friendly, which reduces problems down the line
+2)Flexibility: in an effort to keep up-to-date with the industry, everything the company uses should be easily changed/ updated
+3)Robustness: tools need to have an uptime as close to 100% as possible, this is the responsibility for DevOps engineers 
+4)Cost: the company needs to be as efficient as possible, which lowers the cost for the business
+
+monolith: top of the structure, contains everything essentially, it breaks intto 2 tier, where apps are kept
+
+Good Development environments: 1)User friendly, fast, robust. 2) easy to update. 
+3)Should match production environment, (makes bugs easy to fix). 
+4) should be the same for everyone, makes troubleshooting better
+5) only support 1 application, no conflict.
+
+Kernel: the Core of the OS, what makes a windows a windows, a mac a mac etc
+
+
+
+
+
+
+
