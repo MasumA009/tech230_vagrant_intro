@@ -66,4 +66,59 @@ use ```sudo systemctl start nginx``` to start nginx
 ### step 7: checking 
 
 type the ip into a web browser. ```192.168.10.100```
+this should display a webpage.
+
+
+
+### Automating Nginx
+
+
+Firstly, we need to create a ```provision.sh``` file.
+This is a shell file, and can be created on the dropdown menu on the side:
+![Alt text](new%20file.png)
+
+
+### code for file
+The file should contain the following code:
+```#!/bin/bash ```
+```sudo apt-get update -y```
+```sudo apt-get upgrade -y```
+```sudo apt-get install nginx -y```
+```sudo systemctl start nginx```
+
+It should help to note that these are the commands from before. Save the file.
+
+Another way of seeing this is:
+![Alt text](ignores/PROVISO.png)
+
+### Changes to vagrantfile
+
+we need to make some changes to vagratfile. 
+we need to introduce a new line:
+```config.vm.provision "shell", path: "provision.sh"```
+this allows the provision to be used by the VM. 
+
+Here is an insight to my file for added clrification:
+![Alt text](vagrantch.png)
+
+### Running
+
+we can now use the terminal to run it.
+like before, use ```Vagrant up``` to launch and use the automated nginx engine. 
+
+### checking
+use a browser to check it has worked, use the IP:
+```IP: http://192.168.10.100/ ```
+Confirmation:
+![Alt text](nginx%20ip.png)
+
+### Added comments:
+Here are some notes that may be helpful:
+go to: 
+```https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/```
+for addition help
+
+
+
+
 
